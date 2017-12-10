@@ -1,9 +1,11 @@
-ScalaJS + sbt-scalajs-bundler + Outwatch.
+ScalaJS Initial Template
 
 ```sbt```
 
-```fastOptJS::webpack```
+```fastOptJS```
 
-```fastOptJS::startWebpackDevServer```
+Open:
+```target/scala-2.12/classes/index.html```
 
-open: localhost:8080/classes/index.html
+
+See Outwatch + scalajs-bundler configuration in ```outwatch-with-bundler``` branch.
