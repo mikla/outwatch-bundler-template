@@ -1,11 +1,11 @@
-ScalaJS Initial Template
+ScalaJS + Workbench + ScalaJS Bundler + Outwatch
 
 ```sbt```
 
-```fastOptJS```
+Workbench automatically starts web server.
 
-Open:
-```target/scala-2.12/classes/index.html```
+Visit ```localhost:12345```
 
+For hot reloading run:
 
-See Outwatch + scalajs-bundler configuration in ```outwatch-with-bundler``` branch.
+```~fastOptJS::webpack```
