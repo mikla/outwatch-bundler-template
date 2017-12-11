@@ -14,3 +14,5 @@ libraryDependencies += "io.github.outwatch" %%% "outwatch" % "0.10.2"
 scalaJSUseMainModuleInitializer := true
 
 workbenchDefaultRootObject := Some(("target/scala-2.12/classes/index.html", "target/scala-2.12/"))
+
+webpackBundlingMode := BundlingMode.Application
