@@ -9,3 +9,5 @@ Open:
 
 
 See Outwatch + scalajs-bundler configuration in ```outwatch-with-bundler``` branch.
+
+See Outwatch + scalajs-bundler + Workbench in ```outwatch-workbench``` branch.
