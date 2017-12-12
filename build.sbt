@@ -16,3 +16,9 @@ scalaJSUseMainModuleInitializer := true
 workbenchDefaultRootObject := Some(("target/scala-2.12/classes/index.html", "target/scala-2.12/"))
 
 webpackBundlingMode := BundlingMode.Application
+
+npmDevDependencies in Compile ++= Seq(
+  "webpack-merge" -> "4.1.1"
+)
+
+webpackConfigFile in fullOptJS := Some(baseDirectory.value / "prod.webpack.config.js")
